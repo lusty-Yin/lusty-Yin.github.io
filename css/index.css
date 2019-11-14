@@ -1,0 +1,537 @@
+.topBar {
+    height: 30px;
+    background-color: #f1f1f1;
+}
+.topBar .w {
+    height: 30px;
+}
+.topBar .w .welcome {
+    height: 30px;
+    background-color: #f1f1f1;
+    line-height: 30px;
+    float:left;
+}
+.topBar .w span {
+    float:left;
+}
+.topBar .w span a {
+    float:left;
+}
+.topBar .w .welcome a:nth-child(2) {
+    margin: 0 12px;
+}
+.topBar .w .welcome a:nth-child(3) {
+    color:#bb1a24;
+}
+.topBar .links {
+    float:right;
+}
+.topBar .links li {
+    float:left;
+    line-height: 30px;
+}
+.topBar .links li a {
+    color:#656565;
+}
+.topBar .links .line {
+    width: 1px;
+    height: 12px;
+   margin: 9px 12px;
+    background-color: #656565;
+}
+.topBar .links .icon-xiajiantou {
+    line-height: 27px;
+}
+.header {
+    height: 105px;
+    position: relative;
+}
+.header .logo a {
+    width: 175px;
+    height: 56px;
+    display:block;
+    background-image: url(../img/logo.png);
+    position: absolute;
+    left:0;
+    top:25px;
+}
+.searchBar {
+    width: 534px;
+    height: 32px;
+    border:2px solid #af1a1b;
+    position: absolute;
+    left: 347px;
+    top:25px;
+}
+.searchBar input {
+    float:left;
+    width: 454px;
+    height: 32px;
+    text-indent: 10px;
+}
+.searchBar a {
+    float:right;
+    width: 80px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color:#fff;
+    background-color: #b11a1a;
+}
+.hotWord {
+    position: absolute;
+    left:360px;
+    top:70px;
+}
+.hotWord li {
+    float:left;
+    margin-right: 20px;
+}
+.hotWord li:first-child a {
+    color:#af1a1b;
+}
+.header .carBuy {
+    width: 138px;
+    height: 34px;
+    position: absolute;
+    top:25px;
+    right:63px;
+    border:1px solid  #dfdfdf ;
+    background-color: #f8f8f8;
+    text-align: center;
+    line-height: 34px;
+   
+}
+.header .carBuy a {
+    display:inline-block;
+}
+.header .carBuy i.icon-shouye {
+    color:#b11a1a;
+    font-size: 16px;
+}
+.header .carBuy .count {
+    height: 14px;
+    position: absolute;
+    top:-3px;
+    left:104px;
+    background-color: #b11a1a;
+    border-radius: 7px 7px 7px 0;
+    line-height: 14px;
+    padding:0 6px 0 5px;
+    color:#fff;
+}
+.header .carBuy i.icon-gengduo {
+    font-size: 12px;
+    color:#e8e8e8;
+    line-height: 30px;
+}
+/* ---------header----------- */
+
+.nav {
+    height: 45px;
+    border-bottom:2px solid #b21a1c;
+}
+.nav .w {
+    height: 45px;
+}
+.nav .nav-list {
+    width: 210px;
+    height: 512px;
+    float:left;
+}
+.nav .nav-list .list-hd {
+    width: 210px;
+    height: 45px;
+    background-color: #b11a1a;
+}
+.nav .nav-list .list-bd {
+    width: 210px;
+    height: 465px;
+    background-color: #c81822;
+    margin-top: 2px;
+}
+.nav .nav-list .list-hd {
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;
+    color:#fffcff;
+}
+
+.nav .nav-list .list-bd li {
+    height: 31px;
+    margin-left: 1px;
+    color:#fff;
+    font-size: 14px;
+    line-height: 31px;
+     padding-left: 12px;
+}
+.nav .nav-list .list-bd li a {
+    color:#fff;
+}
+.nav .nav-list .list-bd li i.icon-gengduo {
+    font-size: 12px;
+    float:right;
+    margin-right: 12px;
+}
+.nav .nav-list .list-bd li:hover {
+    background-color: #f7f7f7;
+    color:#c51424;
+}
+.nav .nav-list .list-bd li:hover a {
+    color:#c51424;
+}
+.nav .nav-list .list-bd li:hover i.icon-gengduo {
+    display:none;
+}
+.nav .nav-items {
+    float:left;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 40px;
+}
+.nav .nav-items li {
+    float:left;
+    margin-right: 48px;
+    font-size: 16px;
+}
+/* -------------------nav--------------- */
+
+.main  {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.main .banner {
+    width: 721px;
+    height: 455px;
+    float:left;
+}
+.main .news-model {
+    width: 250px;
+    height: 100%;
+    float:right;
+    /* background-color: skyblue; */
+}
+.main .news-model .news-list {
+    width: 248px;
+    height: 163px;
+    border:1px solid #e5e5e5;
+    border-bottom: none;
+}
+.main .news-model .news-list .list-hd {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px  dashed #e5e5e5;
+    font-size: 14px;
+}
+.main .news-model .news-list .list-hd span {
+    float:left;
+    margin-left: 10px;
+}
+.main .news-model .news-list .list-hd a {
+    float:right;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.main .news-model .news-list .list-hd i.icon-gengduo {
+    font-size: 12px;
+}
+.main .news-model .news-list .list-bd {
+    height: 130px;
+}
+.main .news-model .news-list .list-bd li {
+    margin-left: 10px;
+    margin-top: 12px;
+    font-size: 12px;
+}
+.main .news-model .service {
+    width: 249px;
+    height: 209px;
+    border-left:1px solid #e7e7e7;
+    border-bottom:1px solid #e7e7e7;
+}
+.main .news-model .service li {
+    width: 62px;
+    height: 70px;
+    border-top:1px solid #e7e7e7;
+    border-right:1px solid #e7e7e7;
+    float:left;
+    text-align: center;
+}
+.main .news-model .service li:nth-child(4n) {
+    width: 59px;
+}
+.main .news-model .service li:nth-child(n+9) {
+    height: 66px;
+}
+.main .news-model .service li a {
+    display:block;
+    height: 100%;
+}
+.main .news-model .service li a .icon {
+    width: 26px;
+    height: 24px;
+    display: block;
+    margin: 14px auto 12px;
+    background: url("../img/icons.png") -78px -16px;
+}
+.main .news-model .bargain {
+    margin-top: 5px;
+}
+/* -----------------main -----------------*/
+
+.fixNav {
+    width: 66px;
+    height: 300px;
+    position: fixed;
+    top:350px;
+    left:50%;
+    margin-left: -676px;
+    /* background-color: skyblue; */
+}
+.fixNav li {
+    width: 66px;
+    height: 32px;
+}
+.fixNav li a {
+    display: block;
+    width: 56px;
+    height: 31px;
+    margin: 0 auto;
+    border-bottom:1px solid #ededed;
+    text-align: center;
+    line-height: 31px;
+}
+.fixNav li:hover {
+    background-color: #c81822;
+}
+.fixNav li:hover a {
+    color:#fff;
+    border-color: #c81822;
+}
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+}
+.recommend .rec-hd {
+    float:left;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5351;
+    text-align: center;
+}
+.recommend .rec-hd img {
+    margin: 30px 68px 10px;
+}
+.recommend .rec-hd p {
+    font-size: 18px;
+    color:#fff;
+}
+.recommend .rec-bd {
+    float:left;
+    background-color: #ebebeb;
+    height: 163px;
+}
+.recommend .rec-bd li {
+    float:left;
+    width: 248px;
+    height: 146px;
+    border-right:1px solid #dddddd;
+    margin-top: 10px;
+}
+.recommend .rec-bd li:last-child {
+    border:none;
+}
+.recommend .rec-bd li a {
+    display:block;
+    height: 100%;
+    
+}
+/* recommend */
+
+.floor .items {
+    height: 419px;
+}
+.floor .items .item-hd {
+    height: 56px;
+    border-bottom:2px solid #c81724;
+}
+.floor .items .item-hd span {
+    float:left;
+    font-size: 17px;
+    color:#cd3032;
+    margin-top: 29px;
+}
+.floor .items .item-hd ul {
+    float:right;
+    margin-right: 8px;
+     margin-top: 35px;
+}
+.floor .items .item-hd  li {
+    float:left;
+}
+.floor .items .item-hd ul li:first-child a {
+    color:#cd3032;
+}
+.floor .items .item-hd ul .line {
+    width: 1px;
+    height: 12px;
+    background-color: #979797;
+    margin: 0 13px;
+}
+.floor .item-bd>div {
+    height: 360px;
+    float:left;
+}
+.floor .item-bd .w210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    
+}
+.floor .item-bd .w330 {
+    width: 330px;
+}
+.floor .item-bd .w219 {
+    width: 219px;
+    border-right:1px solid #eeeeee;
+    overflow: hidden;
+}
+.floor .item-bd .w219 a {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.floor .item-bd .w210 ul li {
+    width: 86px;
+    height: 32px;
+    border-bottom: 1px solid #eeeeee;
+}
+.floor .item-bd .w210 ul li a {
+    display:block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 32px;
+}
+.floor .item-bd .w210  li:nth-child(odd) {
+    float:left;
+}
+.floor .item-bd .w210  li:nth-child(even) {
+    float:right;
+}
+.floor .item-bd .samsung {
+    text-align: center;
+   
+}
+.floor .item-bd .samsung img {
+     margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 419px;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+}
+.footer .w {
+    height: 419px;
+}
+.footer .slogan {
+    height: 109px;
+    border-bottom: 1px solid #ececec;
+}
+.footer .help {
+    height: 187px;
+    border-bottom: 1px solid #ececec;
+}
+.footer .slogan li {
+    height: 109px;
+    width: 20%;
+    float:left;
+    position: relative;
+}
+.footer .slogan li .icon {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    left:36px;
+    top:30px;
+    background: url("../img/icons.png") -253px -3px;
+}
+.footer .slogan li span {
+    position: absolute;
+}
+.footer .slogan li .title {
+    font-size: 14px;
+    font-weight: 700;
+    left:92px;
+    top:38px;
+}
+.footer .slogan li .desc {
+    font-size: 14px;
+    top:61px;
+    left:92px;
+}
+.footer .help ul{
+    float:left;
+    margin-top: 20px;
+    width: 200px;
+}
+.footer .help ul li {
+    margin-bottom: 8px;
+}
+.footer .help ul li:first-child {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.footer .help ul:nth-child(1) {
+    margin-left: 52px;
+}
+.footer .help ul:nth-child(5) {
+    width: 150px;
+}
+.footer .app {
+    float:right;
+    width: 97px;
+    text-align: center;
+    margin-right: 75px;
+}
+.footer .app .title {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.footer .app img {
+    margin-bottom: 8px;
+}
+.footer .info {
+    text-align: center;
+}
+.footer .info p:nth-child(1) {
+    margin-top: 20px;
+}
+.footer .info  span {
+    padding: 0 10px;
+}
+.footer .info p:nth-child(2) {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
